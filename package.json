@@ -1,0 +1,17 @@
+{
+    "name": "unit-test-techlens658---copy",
+    "version": "1.0.0",
+    "description": "[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/ZaN7MV0r)\r # Instructions:\r 1. Clone the repository into your local system\r 2. Download the extension \"Run on Save\" and enable it.\r 3. Restart your VS Code.",
+    "main": "program1.js",
+    "scripts": {
+      "test1": "mocha test1.js",
+      "test2":"mocha test2.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "mocha": "^10.2.0"
+    }
+  }
+  

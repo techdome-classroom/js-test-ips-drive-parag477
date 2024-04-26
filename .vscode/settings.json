@@ -1,0 +1,29 @@
+{
+    "python.testing.pytestArgs": [],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "python.analysis.extraPaths": [
+        "./tests/unit_test_helper"
+    ],
+    "python.linting.pylintArgs": [
+        "--disable=C0111"
+    ],
+    "emeraldwalk.runonsave": {
+        "autoClearConsole": true,
+        "commands": [
+            {
+              "match": "program1.js",
+                  "cmd": "git add . && git commit -m \"Auto commit on save\" && git push origin main && node \"${workspaceFolder}\\test1.js\" \"${workspaceFolder}\\program1.js\"",
+                  
+            },
+            {
+              "match": "program2.js",
+                  "cmd": "git add . && git commit -m \"Auto commit on save\" && git push origin main && node \"${workspaceFolder}\\test2.js\" \"${workspaceFolder}\\program2.js\"",
+                  
+            },
+
+        ]
+    },
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 3000
+  }
